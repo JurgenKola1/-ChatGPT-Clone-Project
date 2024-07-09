@@ -4,6 +4,7 @@ import config
 
 # Initialize the OpenAI API key
 openai.api_key = config.API_KEY
+print("HI")
 
 # Initialize the Flask app
 app = Flask(__name__)
